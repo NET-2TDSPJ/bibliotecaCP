@@ -1,17 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Infrastructure;
 
-builder.Services.AddDbContext<BibliotecaContext>(options =>
-    options.UseOracle(builder.Configuration.GetConnectionString("OracleConnection")));
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddDbContext<BibliotecaContext>(options =>
+    options.UseOracle(builder.Configuration.GetConnectionString("OracleConnection")));
+
 builder.Services.AddOpenApi();
+
+builder.Logging.AddConsole();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -19,24 +19,44 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
+app.MapGet("/health", async (BibliotecaContext context) =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+    try
+    {
+        await context.Database.OpenConnectionAsync();
+        await context.Database.CloseConnectionAsync();
+        return Results.Ok(new { status = "OK", timestamp = DateTime.UtcNow });
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem(detail: ex.Message, statusCode: 500);
+    }
+});
+
+app.MapGet("/livros", async (BibliotecaContext context) =>
+{
+    var livros = await context.Livros.Take(10).ToListAsync();
+    return Results.Ok(livros);
+});
 
 app.MapGet("/weatherforecast", () =>
+{
+    var summaries = new[]
     {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast");
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm",
+        "Balmy", "Hot", "Sweltering", "Scorching"
+    };
+
+    var forecast = Enumerable.Range(1, 5).Select(index =>
+        new WeatherForecast(
+            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+            Random.Shared.Next(-20, 55),
+            summaries[Random.Shared.Next(summaries.Length)]))
+        .ToArray();
+
+    return forecast;
+})
+.WithName("GetWeatherForecast");
 
 app.Run();
 

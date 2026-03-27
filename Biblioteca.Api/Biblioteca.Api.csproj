@@ -8,10 +8,12 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\Biblioteca.Application\Biblioteca.Application.csproj" />
+      <ProjectReference Include="..\Biblioteca.Infrastructure\Biblioteca.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

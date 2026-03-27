@@ -4,9 +4,9 @@ public class Livro
 {
     public int LivroId { get; set; }
 
-    public string LivroTitulo { get; set; }
+    public string LivroTitulo { get; set; } = string.Empty;
 
-    public string LivroAutor { get; set; }
+    public string LivroAutor { get; set; } = string.Empty;
 
     public char LivroStatus { get; set; }
 

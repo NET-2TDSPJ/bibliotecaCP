@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using Biblioteca.Domain;
+using Biblioteca.Domain.Entities;
+
+namespace Biblioteca.Infrastructure;
 
 public class BibliotecaContext : DbContext
 {

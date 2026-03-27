@@ -6,7 +6,7 @@ public class Feedback
 
     public int FeedbackNota { get; set; }
 
-    public string FeedbackDescricao { get; set; }
+    public string FeedbackDescricao { get; set; } = string.Empty;
 
     public int LivroId { get; set; }
 }
