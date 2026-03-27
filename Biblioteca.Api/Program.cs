@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Biblioteca.Infrastructure;
+
+builder.Services.AddDbContext<BibliotecaContext>(options =>
+    options.UseOracle(builder.Configuration.GetConnectionString("OracleConnection")));
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

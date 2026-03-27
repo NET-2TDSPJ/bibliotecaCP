@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Api\\Biblioteca.Api.csproj": {}
+    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Api\\Biblioteca.Api.csproj": {
+    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Api\\Biblioteca.Api.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj",
         "projectName": "Biblioteca.Api",
-        "projectPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Api\\Biblioteca.Api.csproj",
-        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Api\\obj\\",
+        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj",
+        "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Application\\Biblioteca.Application.csproj": {
-                "projectPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Application\\Biblioteca.Application.csproj"
+              "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
               }
             }
           }
@@ -42,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\vitor\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -490,17 +490,17 @@
         }
       }
     },
-    "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "projectName": "Biblioteca.Application",
-        "projectPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Application\\Biblioteca.Application.csproj",
-        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Application\\obj\\",
+        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -512,8 +512,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               }
             }
           }
@@ -528,7 +528,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -549,7 +549,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\vitor\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -827,17 +827,17 @@
         }
       }
     },
-    "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "projectName": "Biblioteca.Domain",
-        "projectPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
-        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitor\\RiderProjects\\BibliotecaSolution\\Biblioteca.Domain\\obj\\",
+        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -861,7 +861,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -882,7 +882,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\vitor\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
