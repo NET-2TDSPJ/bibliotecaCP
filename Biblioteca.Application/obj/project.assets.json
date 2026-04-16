@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
+      "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
       "projectName": "Biblioteca.Application",
-      "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
+      "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
       "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\obj\\",
+      "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-              "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+            "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+              "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
             }
           }
         }

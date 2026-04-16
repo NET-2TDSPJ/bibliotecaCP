@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Biblioteca.Domain.Entities;
+
 public class UsuarioMapping : IEntityTypeConfiguration<Usuario>
 {
     public void Configure(EntityTypeBuilder<Usuario> builder)
@@ -6,19 +10,19 @@ public class UsuarioMapping : IEntityTypeConfiguration<Usuario>
 
         builder.HasKey(u => u.UsuarioId);
 
-        builder.Property(u => u.Nome)
+        builder.Property(u => u.UsuarioNome)
             .IsRequired()
             .HasMaxLength(100);
 
-        builder.Property(u => u.Email)
+        builder.Property(u => u.UsuarioEmail)
             .IsRequired()
             .HasMaxLength(50);
 
-        builder.Property(u => u.Cpf)
+        builder.Property(u => u.UsuarioCpf)
             .IsRequired()
             .HasMaxLength(11);
 
-        builder.HasIndex(u => u.Email).IsUnique();
-        builder.HasIndex(u => u.Cpf).IsUnique();
+        builder.HasIndex(u => u.UsuarioEmail).IsUnique();
+        builder.HasIndex(u => u.UsuarioCpf).IsUnique();
     }
 }

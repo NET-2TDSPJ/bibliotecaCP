@@ -231,11 +231,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Oracle.EntityFrameworkCore/10.23.26100": {
+      "Oracle.EntityFrameworkCore/10.23.26200": {
         "type": "package",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "[10.0.0, 11.0.0)",
-          "Oracle.ManagedDataAccess.Core": "[23.26.100, 24.0.0)"
+          "Oracle.ManagedDataAccess.Core": "[23.26.200, 24.0.0)"
         },
         "compile": {
           "lib/net10.0/Oracle.EntityFrameworkCore.dll": {}
@@ -244,7 +244,7 @@
           "lib/net10.0/Oracle.EntityFrameworkCore.dll": {}
         }
       },
-      "Oracle.ManagedDataAccess.Core/23.26.100": {
+      "Oracle.ManagedDataAccess.Core/23.26.200": {
         "type": "package",
         "dependencies": {
           "System.Diagnostics.PerformanceCounter": "8.0.0",
@@ -810,25 +810,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Oracle.EntityFrameworkCore/10.23.26100": {
-      "sha512": "GJp5t9RN9OOKUSRtTOuHUxHvFMCaJN4k/CVSplqjRUR4cJ8gSfiTEBGIf2f2czfJtUkSSv7qFhku9cmXnlPmpQ==",
+    "Oracle.EntityFrameworkCore/10.23.26200": {
+      "sha512": "LZJkz3mQ/oLrAk4T0OUsLdWVeG6KVJCgu31EWZzlb9j6O3KCvQWp0yr2F4hIQHe9y8XH8mLAyotn2jWW+ogjFQ==",
       "type": "package",
-      "path": "oracle.entityframeworkcore/10.23.26100",
+      "path": "oracle.entityframeworkcore/10.23.26200",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.txt",
         "README.md",
         "lib/net10.0/Oracle.EntityFrameworkCore.dll",
-        "oracle.entityframeworkcore.10.23.26100.nupkg.sha512",
+        "oracle.entityframeworkcore.10.23.26200.nupkg.sha512",
         "oracle.entityframeworkcore.nuspec",
         "oracle.png"
       ]
     },
-    "Oracle.ManagedDataAccess.Core/23.26.100": {
-      "sha512": "ObLgWXTEm1oy40uCVw6eBXSXbQHgpY+BNQN0lzO2GibSpIiCdvVi85DPmNLndprBC4fv2L+YV/xepzLXmv23eA==",
+    "Oracle.ManagedDataAccess.Core/23.26.200": {
+      "sha512": "l+k3UOpWfv7g2F4/FnenQlwMMvVk8LLlVgAn1qdl3Seyna2kkyogSHS0ceBGMKNT7KjC79rpIyFmt8Q0QveB3A==",
       "type": "package",
-      "path": "oracle.manageddataaccess.core/23.26.100",
+      "path": "oracle.manageddataaccess.core/23.26.200",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -839,7 +839,7 @@
         "info.txt",
         "lib/net8.0/Oracle.ManagedDataAccess.dll",
         "lib/netstandard2.1/Oracle.ManagedDataAccess.dll",
-        "oracle.manageddataaccess.core.23.26.100.nupkg.sha512",
+        "oracle.manageddataaccess.core.23.26.200.nupkg.sha512",
         "oracle.manageddataaccess.core.nuspec",
         "oracle.png"
       ]
@@ -1081,7 +1081,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Biblioteca.Application >= 1.0.0",
-      "Oracle.EntityFrameworkCore >= 10.23.26100"
+      "Oracle.EntityFrameworkCore >= 10.23.26200"
     ]
   },
   "packageFolders": {
@@ -1090,11 +1090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
       "projectName": "Biblioteca.Infrastructure",
-      "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1109,8 +1109,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
-              "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
+            "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+              "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
             }
           }
         }
@@ -1133,7 +1133,7 @@
         "dependencies": {
           "Oracle.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[10.23.26100, )"
+            "version": "[10.23.26200, )"
           }
         },
         "imports": [

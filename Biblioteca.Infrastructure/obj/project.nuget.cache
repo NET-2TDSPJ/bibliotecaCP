@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "feYvOqlB5fo=",
+  "dgSpecHash": "V3nnHQI77FA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\decob\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.0\\microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
     "C:\\Users\\decob\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.0\\microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",
@@ -17,8 +17,8 @@
     "C:\\Users\\decob\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\decob\\.nuget\\packages\\microsoft.extensions.options\\10.0.0\\microsoft.extensions.options.10.0.0.nupkg.sha512",
     "C:\\Users\\decob\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.0\\microsoft.extensions.primitives.10.0.0.nupkg.sha512",
-    "C:\\Users\\decob\\.nuget\\packages\\oracle.entityframeworkcore\\10.23.26100\\oracle.entityframeworkcore.10.23.26100.nupkg.sha512",
-    "C:\\Users\\decob\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.100\\oracle.manageddataaccess.core.23.26.100.nupkg.sha512",
+    "C:\\Users\\decob\\.nuget\\packages\\oracle.entityframeworkcore\\10.23.26200\\oracle.entityframeworkcore.10.23.26200.nupkg.sha512",
+    "C:\\Users\\decob\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.200\\oracle.manageddataaccess.core.23.26.200.nupkg.sha512",
     "C:\\Users\\decob\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\decob\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
     "C:\\Users\\decob\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",

@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Biblioteca.Domain.Entities;
+
 public class CategoriaLivroMapping : IEntityTypeConfiguration<CategoriaLivro>
 {
     public void Configure(EntityTypeBuilder<CategoriaLivro> builder)

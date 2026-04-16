@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.api\\Biblioteca.Api.csproj": {}
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.api\\Biblioteca.Api.csproj": {
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.api\\Biblioteca.Api.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj",
         "projectName": "Biblioteca.Api",
-        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.api\\Biblioteca.Api.csproj",
+        "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Api\\Biblioteca.Api.csproj",
         "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.api\\obj\\",
+        "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
-                "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
+              "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
               },
-              "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj"
+              "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj"
               }
             }
           }
@@ -57,7 +57,13 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.0, )"
+              "version": "[10.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.6, )"
             }
           },
           "imports": [
@@ -497,14 +503,14 @@
         }
       }
     },
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "projectName": "Biblioteca.Application",
-        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
+        "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj",
         "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\obj\\",
+        "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -519,8 +525,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
-                "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
+              "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+                "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj"
               }
             }
           }
@@ -834,14 +840,14 @@
         }
       }
     },
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "projectName": "Biblioteca.Domain",
-        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\obj\\",
+        "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1167,14 +1173,14 @@
         }
       }
     },
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj": {
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
         "projectName": "Biblioteca.Infrastructure",
-        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\Biblioteca.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1189,8 +1195,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
-                "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
+              "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj": {
+                "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Application\\Biblioteca.Application.csproj"
               }
             }
           }
@@ -1213,7 +1219,7 @@
           "dependencies": {
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.23.26100, )"
+              "version": "[10.23.26200, )"
             }
           },
           "imports": [

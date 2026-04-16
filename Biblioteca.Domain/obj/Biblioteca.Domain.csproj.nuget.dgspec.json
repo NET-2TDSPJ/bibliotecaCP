@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {}
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
+    "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "projectName": "Biblioteca.Domain",
-        "projectPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
+        "projectPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\Biblioteca.Domain.csproj",
         "packagesPath": "C:\\Users\\decob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\decob\\OneDrive\\Área de Trabalho\\bibliotecaCP\\Biblioteca.Domain\\obj\\",
+        "outputPath": "C:\\Users\\decob\\bibliotecaCP\\Biblioteca.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\decob\\AppData\\Roaming\\NuGet\\NuGet.Config"

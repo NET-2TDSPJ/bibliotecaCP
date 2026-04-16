@@ -1,17 +1,33 @@
-public class CategoriaLivroMapping : IEntityTypeConfiguration<CategoriaLivro>
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using Biblioteca.Domain.Entities;
+
+public class EmprestimoMapping : IEntityTypeConfiguration<Emprestimo>
 {
-    public void Configure(EntityTypeBuilder<CategoriaLivro> builder)
+    public void Configure(EntityTypeBuilder<Emprestimo> builder)
     {
-        builder.ToTable("CATEGORIAS_LIVROS");
+        builder.ToTable("EMPRESTIMOS");
 
-        builder.HasKey(cl => cl.CategoriaLivroId);
+        builder.HasKey(e => e.EmprestimoId);
 
-        builder.HasOne(cl => cl.Categoria)
-            .WithMany(c => c.CategoriasLivros)
-            .HasForeignKey(cl => cl.CategoriaId);
+        builder.Property(e => e.EmprestimoData)
+            .IsRequired();
 
-        builder.HasOne(cl => cl.Livro)
-            .WithMany(l => l.CategoriasLivros)
-            .HasForeignKey(cl => cl.LivroId);
+        builder.Property(e => e.EmprestimoStatus)
+            .IsRequired()
+            .HasMaxLength(1);
+
+        builder.Property(e => e.EmprestimoDevolucao);
+
+        builder.Property(e => e.EmprestimoDevolucaoPrevista)
+            .IsRequired();
+
+        builder.HasOne(e => e.Livro)
+            .WithMany(l => l.Emprestimos)
+            .HasForeignKey(e => e.LivroId);
+
+        builder.HasOne(e => e.Usuario)
+            .WithMany(u => u.Emprestimos)
+            .HasForeignKey(e => e.UsuarioId);
     }
 }
