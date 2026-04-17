@@ -1,6 +1,6 @@
-# Projeto BibliotecaCP - Web API .NET
+# Projeto BibliotecaCP - Web API .NET (CP2)
 
-Trabalho desenvolvido para a disciplina de **Advanced Business Development**. A ideia é uma Web API de sistema de biblioteca feita com .NET e seguindo o padrão de Clean Architecture.
+Esse é o nosso trabalho para a disciplina de **Advanced Business Development**. A ideia é uma Web API de sistema de biblioteca feita com .NET e seguindo o padrão de Clean Architecture. 
 
 ---
 
@@ -30,3 +30,15 @@ Em todas as entidades, a gente usou **ID inteiro (int)** com autoincremento como
 * **Usuários e Empréstimos:** Um usuário pode pegar vários livros.
 * **Livros e Feedbacks:** O pessoal pode deixar vários comentários em um livro.
 * **Livros e Categorias:** Um livro pode ter várias categorias e uma categoria pode ter vários livros (tabela intermediária).
+
+## 💾 Banco de Dados (Oracle)
+Pra CP2, a gente usou o **Oracle Database** que foi pedido e configurou a connection string certinho pelo Entity Framework Core. 
+
+**Importante:** Por questões de segurança (e pra seguir as regras de não subir segredos), a gente tirou a nossa senha real do `appsettings.json` na hora de dar push pro GitHub. O valor lá ficou como `SUA_SENHA_AQUI`. Pra rodar local e testar no seu banco, tem que colocar a senha certa lá.
+
+## 🚀 Como testar e gerar as tabelas
+1. Colocar a senha de conexão correta no `appsettings.json` do projeto `Biblioteca.Api`.
+2. Abrir o terminal na raiz do projeto e rodar o comando pra gerar o banco:
+   `dotnet ef database update -p Biblioteca.Infrastructure -s Biblioteca.Api`
+
+*(Nota: Os prints comprovando as tabelas já criadas no nosso banco Oracle a gente deixou salvos na pasta `/docs` do repositório).*
